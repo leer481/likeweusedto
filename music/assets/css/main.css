@@ -1,0 +1,302 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	display: flex;
+	background-color: black;
+	width: 1200px;
+}
+
+
+.bg1 {
+  background-image:url("assets/photos/background.png");
+  width: 100vw;
+  z-index: -1;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+	display: flex;
+	margin: auto;
+	width: 100%;
+	align-items: center;
+	position: absolute;
+	top: 0;
+}
+
+nav {
+	flex: 1;
+}
+
+.nav-links {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	list-style: none;
+	width: 80%;
+	margin-left:15%;
+	margin-right: 10%;
+}
+
+.nav-link {
+	text-align: center;
+	text-decoration: none;
+	font-size: 72px;
+	color: #e5e5e5;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 82px;
+	z-index: 1;
+	-webkit-background-clip: text;
+
+}
+
+@media (max-width: 992px) {
+  .nav-link{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 25px;
+  }
+}
+
+.nav-link:hover {
+	color: #9c9c9c;
+	-webkit-background-clip: text;
+ 	cursor: pointer;	
+}
+
+
+.title {
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 144px;
+	line-height: 162px;
+	color: #ffffff;
+	z-index: 1;
+	position: absolute;
+	top: 39%;
+	padding-left: 18%;
+	padding-right: 18%;
+}
+
+@media (max-width: 992px) {
+  .title{
+    font-size: 80px;
+	line-height: 113px;
+	top: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 80px;
+	line-height: 90px;
+	top: 20%;
+  }
+}
+
+.keshi {
+	background-image:url("assets/photos/keshi.png");
+	position: absolute;
+	width: 13vw;
+	right: 0;
+	top: 10%;
+	z-index: 2;
+}
+
+.keshi:hover {
+	 cursor: pointer;
+	 -webkit-filter: grayscale(100%);
+  	filter: grayscale(100%);
+}
+
+.niki {
+	background-image:url("assets/photos/niki.png");
+	position: absolute;
+	top: 0;
+	width: 21vw;
+	left: 20%;
+	z-index: 2;
+}
+
+.niki:hover {
+	 cursor: pointer;
+	 -webkit-filter: grayscale(100%);
+  	filter: grayscale(100%);
+}
+
+.umi {
+	background-image:url("assets/photos/umi.png");
+	position: absolute;
+	top: 45%;
+	width: 21vw;
+	margin-left: 55%;
+}
+
+.umi:hover {
+	 cursor: pointer;
+	 -webkit-filter: grayscale(100%);
+  	filter: grayscale(100%);
+}
+
+.frankocean {
+	color: #ffffff;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 37px;
+	line-height: 44px;
+	padding-bottom: 10px;
+}
+
+.frank {
+	flex: 2;
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+@media (max-width: 992px) {
+  .frank{
+	padding-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .frank {
+	padding-top: 350px;
+  }
+}
+
+.kehlan {
+	flex: 2;
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.keh {
+	color: #ffffff;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 37px;
+	line-height: 44px;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+
+.kes {
+	flex: 2;
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 70px;
+
+}
+
+.keshisong {
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 42px;
+	color: #ffffff;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.nikii {
+	flex: 2;
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+.nikisong {
+	color: #ffffff;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 37px;
+	line-height: 44px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.pinksweats {
+	flex: 2;
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+.pink {
+	color: #ffffff;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 37px;
+	line-height: 44px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.slchld {
+	flex: 2;
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+.sl {
+	color: #ffffff;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 37px;
+	line-height: 44px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.umii {
+	flex: 2;
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+.umisong {
+	color: #ffffff;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 37px;
+	line-height: 44px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.links{
+	width: 100vw;
+	z-index: 2;
+	position: absolute;
+	top: 0%;
+	padding-top: 48%;
+}
+
+
+

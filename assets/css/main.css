@@ -1,0 +1,206 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	display: flex;
+	background-color: black;
+	width: 1200px;
+}
+
+.background {
+  background-image:url("assets/photos/background.png");
+  width: 100vw;
+  z-index: -1;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: fixed;
+}
+
+header {
+	display: flex;
+	margin: auto;
+	width: 100%;
+	align-items: center;
+	position: absolute;
+	top: 0;
+}
+
+nav {
+	flex: 1;
+}
+
+.nav-links {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	list-style: none;
+	width: 80%;
+	margin-left:15%;
+	margin-right: 10%;
+}
+
+
+.nav-link {
+	text-align: center;
+	text-decoration: none;
+	font-size: 72px;
+	color: #e5e5e5;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 82px;
+	z-index: 1;
+	-webkit-background-clip: text;
+
+}
+
+@media (max-width: 992px) {
+  .nav-link{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 25px;
+  }
+}
+
+.nav-link:hover {
+	color: #9c9c9c;
+	-webkit-background-clip: text;
+ 	cursor: pointer;	
+}
+
+.title {
+	flex: 1;
+	text-align: center;
+	margin: auto;
+	color: #ffffff;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 144px;
+	line-height: 173px;
+	position: absolute;
+	top: 35%;
+	padding-left: 22%;
+	padding-right: 22%;
+	z-index: 1;
+}
+
+
+@media (max-width: 992px) {
+  .title{
+    font-size: 90px;
+	line-height: 80px;
+	padding-left: 12%;
+	padding-right: 12%;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 45px;
+    padding-left: 17%;
+	padding-right: 12%;
+  }
+}
+
+
+.subtitle{
+	flex: 1;
+	text-align: center;
+	margin: auto;
+	color: #ffffff;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 96px;
+	line-height: 108px;
+	position: absolute;
+	top: 52%;
+	padding-left: 51%;
+	z-index: 1;
+
+}
+
+
+@media (max-width: 992px) {
+  .subtitle{
+    font-size: 50px;
+    top: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .suntitle {
+    font-size: 15px;
+    top: 30%;
+
+  }
+}
+
+.umi {
+	background-image:url("assets/photos/umihome.png");
+	position: absolute;
+	width: 22vw;
+	top: 68%;
+	padding-left: 5%;
+}
+
+.umi:hover {
+	 cursor: pointer;
+	 -webkit-filter: grayscale(100%);
+  	filter: grayscale(100%);
+}
+
+.niki {
+	background-image:url("assets/photos/niki.png");
+	position: absolute;
+	top: 11%;
+	width : 23vw;
+	padding-left: 25%;
+}
+
+.niki:hover {
+	 cursor: pointer;
+	 -webkit-filter: grayscale(100%);
+  	filter: grayscale(100%);
+}
+
+.keshi {
+	background-image:url("assets/photos/keshi.png");
+	position: absolute;
+	width: 29vw;
+	top: 37%;
+	padding-left: 54%;
+}
+
+.keshi:hover {
+	 cursor: pointer;
+	 -webkit-filter: grayscale(100%);
+  	filter: grayscale(100%);
+}
+
+.caeser {
+	background-image:url("assets/photos/caeser.png");
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;
+}
+
+.caeser:hover {
+	 cursor: pointer;
+	 -webkit-filter: grayscale(100%);
+  	filter: grayscale(100%);
+}
+
+
+
